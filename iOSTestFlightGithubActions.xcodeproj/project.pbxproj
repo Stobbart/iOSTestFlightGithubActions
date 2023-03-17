@@ -11,9 +11,9 @@
 		03D8787329C4B2A1006958AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D8787229C4B2A1006958AB /* ContentView.swift */; };
 		03D8787529C4B2A2006958AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D8787429C4B2A2006958AB /* Assets.xcassets */; };
 		03D8787829C4B2A2006958AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D8787729C4B2A2006958AB /* Preview Assets.xcassets */; };
-		03D8788229C4B2A3006958AB /* iOSTestFlightGithubActionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D8788129C4B2A3006958AB /* iOSTestFlightGithubActionsTests.swift */; };
 		03D8788C29C4B2A3006958AB /* iOSTestFlightGithubActionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D8788B29C4B2A3006958AB /* iOSTestFlightGithubActionsUITests.swift */; };
 		03D8788E29C4B2A3006958AB /* iOSTestFlightGithubActionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D8788D29C4B2A3006958AB /* iOSTestFlightGithubActionsUITestsLaunchTests.swift */; };
+		03D8789A29C4EB37006958AB /* iOSTestFlightGithubActionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D8788129C4B2A3006958AB /* iOSTestFlightGithubActionsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,7 +113,6 @@
 		03D8788029C4B2A3006958AB /* iOSTestFlightGithubActionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				03D8788129C4B2A3006958AB /* iOSTestFlightGithubActionsTests.swift */,
 			);
 			path = iOSTestFlightGithubActionsTests;
 			sourceTree = "<group>";
@@ -121,6 +120,7 @@
 		03D8788A29C4B2A3006958AB /* iOSTestFlightGithubActionsUITests */ = {
 			isa = PBXGroup;
 			children = (
+				03D8788129C4B2A3006958AB /* iOSTestFlightGithubActionsTests.swift */,
 				03D8788B29C4B2A3006958AB /* iOSTestFlightGithubActionsUITests.swift */,
 				03D8788D29C4B2A3006958AB /* iOSTestFlightGithubActionsUITestsLaunchTests.swift */,
 			);
@@ -266,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D8788229C4B2A3006958AB /* iOSTestFlightGithubActionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +275,7 @@
 			files = (
 				03D8788C29C4B2A3006958AB /* iOSTestFlightGithubActionsUITests.swift in Sources */,
 				03D8788E29C4B2A3006958AB /* iOSTestFlightGithubActionsUITestsLaunchTests.swift in Sources */,
+				03D8789A29C4EB37006958AB /* iOSTestFlightGithubActionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
