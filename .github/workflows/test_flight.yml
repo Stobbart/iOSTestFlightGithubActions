@@ -1,0 +1,12 @@
+name: iOS PR Library
+
+on: [push]
+
+jobs:
+  build:
+    name: Run Unit Tests
+    runs-on: macos-11
+    needs: check-version
+
+    steps:
+        - uses: actions/checkout@v3
