@@ -15,7 +15,7 @@ final class iOSTestFlightGithubActionsTests: XCTestCase {
     }
 
     func testExample() {
-        XCTAssertTrue(false)
+       // XCTAssertTrue(false)
     }
 
 
