@@ -10,6 +10,6 @@ jobs:
     steps:
         - uses: actions/checkout@v1
         - name: Select Xcode
-          run: sudo xcode-select -switch /Applications/Xcode_13.0.app && /usr/bin/xcodebuild -version
+          run: sudo xcode-select -switch /Applications/Xcode_14.2.app && /usr/bin/xcodebuild -version
         - name: Run tests
-          run: xcodebuild test -scheme iOSTestFlightGithubActions -project iOSTestFlightGithubActions.xcodeproj -destination 'platform=iOS Simulator,name=iPhone 12,OS=latest' | xcpretty && exit ${PIPESTATUS[0]}
+          run: xcodebuild test -scheme iOSTestFlightGithubActions -project iOSTestFlightGithubActions.xcodeproj -destination 'platform=iOS Simulator,name=iPhone 14,OS=14.0' | xcpretty && exit ${PIPESTATUS[0]}
